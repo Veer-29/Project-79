@@ -42,7 +42,7 @@ function add_item() {
     for(var i=0;i<pizza_array.length;i++) {
 
         
-        pizzaval=pizzaval+'<div class="card">' + '<img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c1e0.png">' + pizza_array[i] + '</div>'
+        pizzaval=pizzaval+'<div class="card">' + '<img src="pizzalmg.png">' + pizza_array[i] + '</div>'
     }
     pizzaval=pizzaval+"</section>"
     document.getElementById("display_addedmenu").innerHTML = pizzaval;
